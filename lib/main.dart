@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Fav Websites',
       initialRoute: HomePage.routeName,
       routes: {
-        HomePage.routeName: (context) =>const  HomePage(),
+        HomePage.routeName: (context) => const HomePage(),
         GovernmentSites.routeName: (context) => const GovernmentSites(),
         VideoSites.routeName: (context) => const VideoSites(),
       },
